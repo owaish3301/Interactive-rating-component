@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(20, 21, 25);
+  padding-top: 100px;
+}
+
+.main-card {
+  display: block;
+  max-width: 400px;
+  background-color: rgb(31, 38, 48);
+  margin: auto;
+  width: 90%;
+  border-radius: 10px;
+  padding: 20px;
+}
+.main-card .headers .logo-container {
+  border-radius: 50%;
+  background-color: rgb(39, 46, 56);
+  width: -moz-max-content;
+  width: max-content;
+  padding: 5px;
+}
+.main-card .headers .header-text {
+  padding-top: 15px;
+}
+.main-card .headers .header-text p {
+  font-family: "Overpass", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  font-size: 1.8rem;
+}
+.main-card .content p {
+  padding-top: 15px;
+  color: hsl(217, 12%, 63%);
+  font-family: "Overpass", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.8rem;
+  line-height: 1.3rem;
+}
+.main-card .ratings {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.main-card .ratings div {
+  color: hsl(217, 12%, 63%);
+  background-color: rgb(39, 46, 56);
+  border-radius: 50%;
+  padding: 7%;
+}
+.main-card .submit-btn-container {
+  width: 90%;
+  padding-top: 30px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.main-card .submit-btn-container button {
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+  padding: 20px;
+  background-color: hsl(25, 97%, 53%);
+  width: 100%;
+  border-radius: 50px;
+  border: 0;
+}
+.main-card .submit-btn-container button:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+@media (min-width: 576px) {
+  .main-card .ratings div {
+    padding: 5%;
+  }
+  .main-card .submit-btn-container button {
+    font-size: 1.3rem;
+    padding: 15px;
+  }
+}
+.thank-you-card {
+  display: none;
+  max-width: 400px;
+  background-color: rgb(31, 38, 48);
+  margin: auto;
+  width: 90%;
+  border-radius: 10px;
+  padding: 20px;
+}
+.thank-you-card .image-container {
+  margin: auto;
+  width: -moz-max-content;
+  width: max-content;
+}
+.thank-you-card .selection-info {
+  width: -moz-max-content;
+  width: max-content;
+  margin: auto;
+  margin-top: 10px;
+  background-color: rgb(39, 46, 56);
+  border-radius: 10px;
+  padding: 6px 10px;
+}
+.thank-you-card .selection-info p {
+  font-size: 0.8rem;
+  color: #b56d39;
+}
+.thank-you-card .thank-you-header {
+  padding-top: 20px;
+  width: -moz-max-content;
+  width: max-content;
+  margin: auto;
+}
+.thank-you-card .thank-you-header p {
+  font-family: "Overpass", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  font-size: 1.8rem;
+}
+.thank-you-card .thank-you-content {
+  padding-top: 15px;
+  color: hsl(217, 12%, 63%);
+  font-family: "Overpass", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.8rem;
+  line-height: 1.3rem;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */

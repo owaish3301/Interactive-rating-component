@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(20,21,25,255);
+    padding-top: 100px;
+}
+
+@mixin content{
+    padding-top: 15px;
+    color: hsl(217, 12%, 63%);
+    font-family:"Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+}
+
+@mixin header{
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    font-size: 1.8rem;
+}
+
+@mixin card{
+    max-width: 400px;
+    background-color: rgba(31,38,48,255);
+    margin: auto;
+    width: 90%;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.main-card{
+    display: block;
+    @include card;
+
+    .headers{
+        .logo-container{
+            border-radius: 50%;
+            background-color: rgba(39,46,56,255);
+            width: max-content;
+            padding: 5px;
+        }
+        .header-text{
+            padding-top: 15px;
+            p{
+                @include header;
+            }
+        }
+    }
+
+    .content{
+        p{  
+            @include content;
+        }
+    }
+
+    .ratings{
+        padding-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        div{
+            color:hsl(217, 12%, 63%);
+            background-color: rgba(39,46,56,255) ;
+            border-radius: 50%;
+            padding: 7%;
+        }
+    }
+
+    .submit-btn-container{
+        width: 90%;
+        padding-top: 30px;
+        margin: auto;
+        margin-bottom: 10px;
+        button{
+            font-family:"Overpass", sans-serif;
+            font-weight: 700;
+            font-size: 1.4rem;
+            padding: 20px;
+            background-color:  hsl(25, 97%, 53%);
+            width: 100%;
+            border-radius: 50px;
+            border: 0;
+
+            &:hover{
+                background-color: white;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+@media(min-width:576px){
+    .main-card{
+        .ratings{
+            div{
+                padding: 5%;
+                // &:hover{
+                //     cursor: pointer;
+                //     background-color: white;
+                // }
+            }
+        }
+        .submit-btn-container{
+            button{
+                font-size: 1.3rem;
+                padding: 15px;
+            }
+        }
+    }
+}
+
+
+
+
+.thank-you-card{
+    display: none;
+    @include card;
+
+    .image-container{
+        margin: auto;
+        width: max-content;
+    }
+    .selection-info{
+        width: max-content;
+        margin: auto;
+        margin-top: 10px;
+        background-color:  rgba(39,46,56,255);
+        border-radius: 10px;
+        padding: 6px 10px;
+
+        p{
+            font-size: 0.8rem;
+            color: #b56d39;
+        }
+    }
+    .thank-you-header{
+        padding-top: 20px;
+        width: max-content;
+        margin: auto;
+
+        p{
+            @include header;
+        }
+    }
+    .thank-you-content{
+        @include content();
+        text-align: center;
+    }
+
+}

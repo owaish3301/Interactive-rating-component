@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <title>Interactive rating component</title>
+
+  <link rel="stylesheet" href="styles/style.css">
+
+
+
+</head>
+<body>
+  <div class="main-card">
+    <div class="headers">
+      <div class="logo-container">
+        <img src="images\icon-star.svg" alt="star-logo" id="star-logo">
+      </div>
+      <div class="header-text">
+        <p>How did we do?</p>
+      </div>
+    </div>
+
+    <div class="content">
+      <p>Please let us know how we did with your support request. All feedback is appreciated 
+        to help us improve our offering!
+      </p>
+    </div>
+
+    <div class="ratings">
+      <div class="rate" id="rate-1"> 1 </div>
+      <div class="rate" id="rate-2"> 2 </div>
+      <div class="rate" id="rate-3"> 3 </div>
+      <div class="rate" id="rate-4"> 4 </div>
+      <div class="rate" id="rate-5"> 5 </div>
+    </div>
+
+    <div class="submit-btn-container">
+      <button type="button" id="submit">Submit</button>
+    </div>
+
+  </div>
+
+  <div class="thank-you-card">
+    <div class="image-container">
+      <img src="images/illustration-thank-you.svg" id="thank-you" alt="illustration-thank-you">
+    </div>
+    <div class="selection-info">
+      <p>You selected <span id="rating-submitted">4</span> out of 5</p>
+    </div>
+
+    <div class="thank-you-header">
+      <p>Thank you!</p>
+    </div>
+
+    <div class="thank-you-content">
+      <p>We appreciate you taking the time to give a rating. If you ever need more support, 
+        don’t hesitate to get in touch!</p>
+    </div>
+  </div>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
