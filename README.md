@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/interactive-rating-component-ijeYpMiLY6]
+- Live Site URL: [https://owaish3301.github.io/Interactive-rating-component/]
 
 ## My process
 
@@ -56,8 +56,8 @@ Mostly what i learned was DOM manipulation and implement DRY in css using SASS
 ## Author
 
 - Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@ShadowKiD14](https://www.frontendmentor.io/profile/yourusername)
+- Twitter - [@yourusername](https://www.twitter.com/yourusername) 
 
 ## Acknowledgments
 credits - FrontEnd Mentor
