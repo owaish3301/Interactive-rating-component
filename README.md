@@ -56,8 +56,8 @@ Mostly what i learned was DOM manipulation and implement DRY in css using SASS
 ## Author
 
 - Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@ShadowKiD14](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername) 
+- Frontend Mentor - [@ShadowKiD14](https://www.frontendmentor.io/profile/ShadowKiD14)
+- Twitter - [@yourusername](https://www.twitter.com/ShadowKiD14) 
 
 ## Acknowledgments
 credits - FrontEnd Mentor
